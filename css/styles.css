@@ -9,6 +9,10 @@ h2 {
 p {
   color: black;
   text-align: left;
+  color: red;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
 }
 body {
   background-color: bisque;
@@ -34,15 +38,19 @@ p.author {
     color: blue;
     font-size: large;
     font-style: italic;
+.picture {
+    width: 33%;
+    margin: 5px;
+}
+.sidebar {
+  float: left;
+  background-color: aquamarine;
+  width: 33%;
 }
 
-.pictures {
-    width: 49%;
-    float: left;
-    padding: 5px;
-    
-
-}
-.frames {
-    width: 100%;
+.column {
+  width: 100%;
+  display: flex;
+  float: left;
+  margin: 20px;
 }
