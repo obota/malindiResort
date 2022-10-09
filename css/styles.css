@@ -8,17 +8,30 @@ h2 {
 }
 p {
   color: black;
-  text-align: center;
+  text-align: left;
 }
 body {
   background-color: bisque;
 }
 
-#topav {
+.topav {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.intro {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.author {
+    color: red;
+}
+p.author {
+    color: blue;
+    font-size: large;
+    font-style: italic;
 }
