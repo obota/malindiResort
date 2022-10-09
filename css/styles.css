@@ -7,8 +7,10 @@ h2 {
   text-align: center;
 }
 p {
-  color: black;
-  text-align: center;
+  color: red;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
 }
 body {
   background-color: bisque;
@@ -22,14 +24,19 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
-.pictures {
-    width: 49%;
-    float: left;
-    padding: 5px;
-    
-
+.picture {
+    width: 33%;
+    margin: 5px;
 }
-.frames {
-    width: 100%;
+.sidebar {
+  float: left;
+  background-color: aquamarine;
+  width: 33%;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  float: left;
+  margin: 20px;
 }
