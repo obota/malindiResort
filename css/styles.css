@@ -22,3 +22,14 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
+.pictures {
+    width: 49%;
+    float: left;
+    padding: 5px;
+    
+
+}
+.frames {
+    width: 100%;
+}
