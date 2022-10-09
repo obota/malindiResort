@@ -34,4 +34,14 @@ p.author {
     color: blue;
     font-size: large;
     font-style: italic;
+
+.pictures {
+    width: 49%;
+    float: left;
+    padding: 5px;
+    
+
+}
+.frames {
+    width: 100%;
 }
